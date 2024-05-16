@@ -20,7 +20,7 @@ Este é um projeto de um Relógio Digital construído utilizando HTML, CSS e Jav
 Para usar este relógio digital, basta clonar o repositório e abrir o arquivo `index.html` em seu navegador.
 
 ```bash
-git clone https://seu-repositorio-aqui.git
-cd nome-do-repositorio
+git clone https://github.com/O-Farias/Clock-JS
+cd Clock-JS
 abrir index.html
 ```
