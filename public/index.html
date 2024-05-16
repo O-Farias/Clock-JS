@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/icons/relogio (1).png" type="image/x-icon" />
+    <title>Relógio Digital</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <!-- Container principal para o relógio e o botão -->
+    <div class="container">
+      <button id="toggleFormat" class="toggle-button">Alterar para 12h</button>
+      <div>
+        <div id="clock" class="clock">
+          <span id="hours"></span> : <span id="minutes"></span> :
+          <span id="seconds"></span>
+        </div>
+        <div id="date" class="date"></div>
+      </div>
+
+      <!-- Cronômetro / Temporizador -->
+      <div class="stopwatch">
+        <div id="stopwatchTime" class="time">00:00:00</div>
+        <button id="startStopBtn">Iniciar</button>
+        <button id="resetBtn">Resetar</button>
+      </div>
+    </div>
+
+    <!-- Alarme -->
+    <div class="alarm-settings">
+      <label for="alarmTime">Definir Alarme:</label>
+      <input type="time" id="alarmTime" required />
+      <button id="setAlarm">Ativar Alarme</button>
+      <button id="cancelAlarm">Cancelar Alarme</button>
+    </div>
+
+    <!-- Script -->
+    <script src="/src/script.js"></script>
+  </body>
+</html>
